@@ -37,7 +37,7 @@ const navlist = document.querySelector('nav ul');
 hamburger.addEventListener('click', () => {
     hamburger.classList.toggle('active');
     navList.classList.toggle('active');
-})
+});
 
 // Multiple Text
 
@@ -82,3 +82,9 @@ window.onscroll = () => {
     });
 };
 
+navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        navlist.classList.remove('active');
+    })
+});

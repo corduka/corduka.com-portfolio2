@@ -9,7 +9,7 @@
 
 :root {
   --text-color: #fff;
-  --color: #f52cf9;
+  --color: #00eeff;
   --bg-color: #2d2d2e;
   --first:#fff;
   --second: #000;
@@ -64,6 +64,7 @@ header nav {
 }
 header nav .logo {
   z-index: 1;
+  padding-right: 50px;
 }
 header nav .logo a {
   text-decoration: none;
@@ -702,6 +703,83 @@ header nav .list-darkmode-menu .hamburger.active .bar {
   }
   .about .about-wrapper .about-left .about-img img:hover {
     box-shadow: 0 0 60px var(--color);
+  }
+}
+@media screen and (max-width: 767px) {
+  header nav .list-darkmode-menu ul li a {
+    font-size: 20px;
+  }
+  .home .home-info .left h1 {
+    font-size: 3.6em;
+  }
+  .home .home-info .left h4 {
+    font-size: 1.8em;
+  }
+  .home .home-info .left p {
+    font-size: 14px;
+  }
+  .home .home-info .right .profile img {
+    width: 350px;
+    height: 350px;
+  }
+  .services .services-box .box {
+    width: 340px;
+  }
+  .portfolio .portfolio-wrapper .portfolio-box {
+    width: 340px;
+  }
+}
+@media screen and (max-width: 567px) {
+  header nav .logo a {
+    font-size: 28px;
+  }
+  .home .home-info .left h3 {
+    font-size: 1.8em;
+  }
+  .home .home-info .left h1 {
+    font-size: 2.5em;
+  }
+  .home .home-info .left h4 {
+    font-size: 1.4em;
+  }
+  .home .home-info .left p {
+    font-size: 14px;
+  }
+  .home .home-info .right .profile img {
+    width: 280px;
+    height: 280px;
+  }
+  .about .about-wrapper .about-left .about-img img {
+    width: 280px;
+    height: 280px;
+  }
+  .about .about-wrapper .about-right .about-info h2 {
+    font-size: 2.5em;
+  }
+  .services h2 {
+    font-size: 2.5em;
+  }
+  .portfolio h2 {
+    font-size: 2.5em;
+  }
+  .contact h2 {
+    font-size: 2.5em;
+  }
+  .contact form .input-box input {
+    width: 100%;
+  }
+  .footer {
+    padding: 1.2em 5%;
+  }
+  .footer .footer-wrapper {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .footer .footer-wrapper .footer-info {
+    line-height: 1.5em;
+  }
+  .footer .footer-wrapper .iconTop {
+    margin-bottom: 1em;
   }
 }
 
