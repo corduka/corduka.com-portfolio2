@@ -1,6 +1,6 @@
 //Dark - Light Mode
 
-let darkModeEnabled = localStorage.getItem('darkModeEnabled') === 'true';
+let darkModeEnabled = localStorage.getItem('darkModeEnabled') === 'false';
 
 const enableDarkMode = () => {
     darkModeEnabled = true;
@@ -32,7 +32,7 @@ darkModeButton.addEventListener('change', () => {
 // Menu 
 
 const hamburger = document.querySelector('.hamburger');
-const navlist = document.querySelector('nav ul');
+const navList = document.querySelector('nav ul');
 
 hamburger.addEventListener('click', () => {
     hamburger.classList.toggle('active');
@@ -85,6 +85,6 @@ window.onscroll = () => {
 navLinks.forEach(link => {
     link.addEventListener('click', () => {
         hamburger.classList.remove('active');
-        navlist.classList.remove('active');
+        navList.classList.remove('active');
     })
 });
