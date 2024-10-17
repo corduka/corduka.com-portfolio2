@@ -499,6 +499,15 @@ header nav .list-darkmode-menu .hamburger.active .bar {
   margin: 10px 15px 15px;
   color: #fff;
 }
+.portfolio .portfolio-wrapper .portfolio-box .portfolio-info .certifications-lists {
+  color: white;
+  list-style-type: square;
+  text-align: left;
+}
+.portfolio .portfolio-wrapper .portfolio-box .portfolio-info .certifications-lists li {
+  font-size: 14px !important;
+  line-height: 1.3;
+}
 .portfolio .portfolio-wrapper .portfolio-box .portfolio-info a {
   display: inline-flex;
   align-items: center;
