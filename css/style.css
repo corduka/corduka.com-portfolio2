@@ -206,7 +206,7 @@ header nav .list-darkmode-menu .hamburger.active .bar {
 }
 .home .home-info .left h4 {
   color: var(--first);
-  font-size: 2.2em;
+  font-size: 2em;
   font-weight: bold;
   min-width: 280px;
   margin-bottom: 20px;
@@ -499,12 +499,12 @@ header nav .list-darkmode-menu .hamburger.active .bar {
   margin: 10px 15px 15px;
   color: #fff;
 }
-.portfolio .portfolio-wrapper .portfolio-box .portfolio-info .certifications-lists {
+.portfolio .portfolio-wrapper .portfolio-box .portfolio-info .lists {
   color: white;
   list-style-type: square;
   text-align: left;
 }
-.portfolio .portfolio-wrapper .portfolio-box .portfolio-info .certifications-lists li {
+.portfolio .portfolio-wrapper .portfolio-box .portfolio-info .lists li {
   font-size: 14px !important;
   line-height: 1.3;
 }
